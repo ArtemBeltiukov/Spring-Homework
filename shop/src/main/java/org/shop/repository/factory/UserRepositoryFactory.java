@@ -3,6 +3,7 @@ package org.shop.repository.factory;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.shop.config.AutoLog;
 import org.shop.data.User;
 import org.shop.repository.UserRepository;
 import org.shop.repository.map.AbstractMapRepository;
@@ -30,6 +31,7 @@ public final class UserRepositoryFactory {
      * 
      * @author Dzmitry_Naskou
      */
+    @AutoLog
     private class UserMapRepository extends AbstractMapRepository<User> implements UserRepository {
 
         /* (non-Javadoc)

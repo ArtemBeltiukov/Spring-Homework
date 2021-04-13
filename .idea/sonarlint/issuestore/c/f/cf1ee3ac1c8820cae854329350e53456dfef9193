@@ -1,0 +1,8 @@
+
+e
+java:S1128"CRemove this unused import 'org.shop.repository.ProposalRepository'.(Œ½÷Ëøÿÿÿÿ8—·Ø®Œ/
+l
+java:S1128
+"JRemove this unused import 'org.shop.repository.map.ProposalMapRepository'.(ç„€šþÿÿÿÿ8—·Ø®Œ/
+v
+java:S3305"YInject this field value directly into "orderMapRepository", the only method that uses it.(«ª“ø8¨þÄ±‹/
