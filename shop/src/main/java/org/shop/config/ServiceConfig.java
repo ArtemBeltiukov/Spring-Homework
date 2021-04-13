@@ -11,14 +11,11 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class ServiceConfig {
-    @Bean
-    public ProposalRepository proposalRepository() {
-        return new ProposalMapRepository();
-    }
+
 
     @Bean(name = "proposalService")
-    public ProposalService proposalService() {
-        return new ProposalServiceImpl(proposalRepository());
+    public ProposalService proposalService(ProposalRepository proposalRepository) {
+        return new ProposalServiceImpl(proposalRepository);
     }
 
     @Bean(name = "sellerService")

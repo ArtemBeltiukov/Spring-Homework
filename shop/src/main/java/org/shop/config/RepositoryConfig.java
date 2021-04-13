@@ -26,13 +26,8 @@ public class RepositoryConfig {
     private Environment env;
 
     @Bean
-    public UserRepositoryFactory userRepositoryFactory() {
-        return new UserRepositoryFactory();
-    }
-
-    @Bean
-    public UserRepository userRepository() {
-        return new UserRepositoryFactory().createUserRepository();
+    public UserRepository userRepository(UserRepositoryFactory userRepositoryFactory) {
+        return userRepositoryFactory.createUserRepository();
     }
 
     @Bean
@@ -52,5 +47,9 @@ public class RepositoryConfig {
         return new SellerMapRepository();
     }
 
+    @Bean
+    public ProposalRepository proposalRepository() {
+        return new ProposalMapRepository();
+    }
 
 }

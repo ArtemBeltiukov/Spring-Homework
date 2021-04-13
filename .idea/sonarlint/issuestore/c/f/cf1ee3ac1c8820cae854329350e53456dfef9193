@@ -1,8 +1,11 @@
 
 e
-java:S1128"CRemove this unused import 'org.shop.repository.ProposalRepository'.(Œ½÷Ëøÿÿÿÿ8—·Ø®Œ/
+java:S1128"CRemove this unused import 'org.shop.repository.ProposalRepository'.(Œ½÷Ëøÿÿÿÿ8×ûÔŒ/
 l
-java:S1128
-"JRemove this unused import 'org.shop.repository.map.ProposalMapRepository'.(ç„€šşÿÿÿÿ8—·Ø®Œ/
+java:S1128"JRemove this unused import 'org.shop.repository.map.ProposalMapRepository'.(ç„€šşÿÿÿÿ8×ûÔŒ/
 v
 java:S3305"YInject this field value directly into "orderMapRepository", the only method that uses it.(«ª“ø8¨şÄ±‹/
+L
+java:S1128"/Remove this unused import 'org.shop.data.User'.(‰¦è8æ ãÏŒ/
+s
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.ComponentScan'.(æëòÒûÿÿÿÿ8ŒúÚÔŒ/
