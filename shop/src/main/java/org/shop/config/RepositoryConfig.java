@@ -20,20 +20,19 @@ import org.springframework.core.env.Environment;
 import java.util.Objects;
 
 @Configuration
-@ComponentScan("org.shop.repository")
 @PropertySource("classpath:application.property")
 public class RepositoryConfig {
     @Autowired
     private Environment env;
 
     @Bean
-    public UserRepositoryFactory userRepositoryFactory(){
+    public UserRepositoryFactory userRepositoryFactory() {
         return new UserRepositoryFactory();
     }
 
     @Bean
     public UserRepository userRepository() {
-        return userRepositoryFactory().createUserRepository();
+        return new UserRepositoryFactory().createUserRepository();
     }
 
     @Bean
@@ -44,20 +43,14 @@ public class RepositoryConfig {
     }
 
     @Bean
-    public ProductRepository productRepository(){
+    public ProductRepository productRepository() {
         return new ProductMapRepository();
     }
 
     @Bean
-    public SellerRepository sellerRepository(){
+    public SellerRepository sellerRepository() {
         return new SellerMapRepository();
     }
-
-    @Bean
-    public ProposalRepository proposalRepository(){
-        return new ProposalMapRepository();
-    }
-
 
 
 }

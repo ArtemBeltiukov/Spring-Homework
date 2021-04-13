@@ -1,11 +1,11 @@
 package org.shop;
 
+import org.shop.config.AutoLog;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * The main Data Initializer util class.
  */
-
 public class DataInitializer {
 
     /** The seller initializer. */

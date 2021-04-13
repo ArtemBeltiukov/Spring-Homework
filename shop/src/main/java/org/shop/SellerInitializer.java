@@ -19,6 +19,7 @@ public class SellerInitializer {
     private SellerService sellerService;
     
     /** The seller names. */
+    @Autowired
     private Map<Long, String> sellerNames = Collections.emptyMap();
 
     /**
