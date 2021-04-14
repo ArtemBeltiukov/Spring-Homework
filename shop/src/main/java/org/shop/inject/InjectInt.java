@@ -1,6 +1,6 @@
 package org.shop.inject;
 
-import org.shop.config.InjectRandomInt;
+import org.shop.interfaces.InjectRandomInt;
 
 public class InjectInt {
     @InjectRandomInt(min = 5, max = 10)

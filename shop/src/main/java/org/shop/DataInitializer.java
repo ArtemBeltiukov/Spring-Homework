@@ -1,6 +1,5 @@
 package org.shop;
 
-import org.shop.config.AutoLog;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**

@@ -1,5 +1,6 @@
 package org.shop.config;
 
+import org.shop.interfaces.InjectRandomInt;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.util.ReflectionUtils;

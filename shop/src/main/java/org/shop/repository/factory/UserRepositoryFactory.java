@@ -3,11 +3,9 @@ package org.shop.repository.factory;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.shop.config.AutoLog;
 import org.shop.data.User;
 import org.shop.repository.UserRepository;
 import org.shop.repository.map.AbstractMapRepository;
-import org.springframework.stereotype.Service;
 
 /**
  * A factory for creating UserRepository objects.

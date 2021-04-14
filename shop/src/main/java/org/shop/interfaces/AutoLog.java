@@ -1,4 +1,4 @@
-package org.shop.config;
+package org.shop.interfaces;
 
 
 import java.lang.annotation.Retention;
