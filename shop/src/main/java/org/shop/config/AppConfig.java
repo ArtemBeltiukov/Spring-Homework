@@ -7,14 +7,10 @@ import org.shop.api.impl.ProductServiceImpl;
 import org.shop.api.impl.UserServiceImpl;
 import org.shop.inject.InjectInt;
 import org.shop.repository.map.ProductMapRepository;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
+import org.springframework.context.annotation.*;
 
 @Configuration
-@Import({RepositoryConfig.class, DataConfig.class, FactoryConfig.class, ServiceConfig.class})
+@Import({RepositoryConfig.class, DataConfig.class, FactoryConfig.class, ServiceConfig.class, AspectConfig.class})
 public class AppConfig {
 
     @Bean
@@ -32,15 +28,10 @@ public class AppConfig {
         return new ProductServiceImpl(new ProductMapRepository());
     }
 
-    @Bean
-    public Logger logger() {
-        return LoggerFactory.getLogger(this.getClass());
-    }
-
-    @Bean
-    public AutoLoggerBeanPostProcessor autoLoggerBeanPostProcessor() {
-        return new AutoLoggerBeanPostProcessor();
-    }
+//    @Bean
+//    public AutoLoggerBeanPostProcessor autoLoggerBeanPostProcessor() {
+//        return new AutoLoggerBeanPostProcessor();
+//    }
 
     @Bean
     public SellerInitializer sellerInitializer() {

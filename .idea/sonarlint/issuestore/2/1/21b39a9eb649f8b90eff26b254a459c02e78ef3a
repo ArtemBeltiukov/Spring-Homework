@@ -1,3 +1,8 @@
 
+V
+java:S1128"4Remove this unused import 'org.shop.config.AutoLog'.(ğÔÒåúÿÿÿÿ8ŸùÄÛŒ/
 o
 java:S2293B"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦‚­Ï
+`
+java:S1128
+"CRemove this unused import 'org.springframework.stereotype.Service'.(¼º¡Ú8ÛÄãÛŒ/

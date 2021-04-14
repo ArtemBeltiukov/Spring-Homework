@@ -1,0 +1,11 @@
+
+y
+java:S2629"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(‹–Χ8σοΐΫ/
+^
+java:S3457"AFormat specifiers should be used instead of string concatenation.(‹–Χ8σοΐΫ/
+y
+java:S2629$"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ΎωΫθ8σοΐΫ/
+^
+java:S3457$"AFormat specifiers should be used instead of string concatenation.(ΎωΫθ8σοΐΫ/
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(υ‚Ό½8¨ό―ή/

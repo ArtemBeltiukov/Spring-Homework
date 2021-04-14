@@ -1,4 +1,2 @@
 
-i
-java:S1128"GRemove this unused import 'org.springframework.boot.SpringApplication'.(¯ìÙÿÿÿÿÿ8Ÿ½°‹/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(õü½úÿÿÿÿ8ÃˆÕŒ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(õü½úÿÿÿÿ8ÃˆÕŒ/

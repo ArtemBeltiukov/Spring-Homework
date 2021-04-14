@@ -7,6 +7,7 @@ import org.shop.config.AutoLog;
 import org.shop.data.User;
 import org.shop.repository.UserRepository;
 import org.shop.repository.map.AbstractMapRepository;
+import org.springframework.stereotype.Service;
 
 /**
  * A factory for creating UserRepository objects.
@@ -31,7 +32,6 @@ public final class UserRepositoryFactory {
      * 
      * @author Dzmitry_Naskou
      */
-    @AutoLog
     private class UserMapRepository extends AbstractMapRepository<User> implements UserRepository {
 
         /* (non-Javadoc)

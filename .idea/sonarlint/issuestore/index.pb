@@ -93,3 +93,7 @@ s
 Cshop/src/main/java/org/shop/config/AutoLoggerBeanPostProcessor.java,4\f\4f0e5902f72e0e79e40e482a5dc813820625b9e6
 a
 1shop/src/main/java/org/shop/inject/InjectInt.java,8\f\8f60f60deedf0ee1c1ff00d1012dfd487d006361
+d
+4shop/src/main/java/org/shop/config/AspectConfig.java,c\b\cb60336bac0d492c106d1c9718514aeecb50b1e8
+a
+1shop/src/main/java/org/shop/config/LogAspect.java,4\0\404ef8d511d631508c39367ffbccbdb821c7713c

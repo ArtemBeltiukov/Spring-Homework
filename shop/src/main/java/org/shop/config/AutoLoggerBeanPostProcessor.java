@@ -1,6 +1,7 @@
 package org.shop.config;
 
 import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanPostProcessor;
@@ -10,8 +11,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AutoLoggerBeanPostProcessor implements BeanPostProcessor {
-    @Autowired
-    private Logger LOGGER;
+
+    private Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
     private Map<String, Class> classMap = new HashMap<>();
 
